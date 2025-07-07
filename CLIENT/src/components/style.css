@@ -1,0 +1,105 @@
+.container {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 550px;
+    height: 37vh;
+    padding: 35px;
+    border-radius: 30px;
+    box-shadow: 4px 2px 19px 3px rgb(224, 194, 250);
+}
+
+.box {
+    border: 3px dotted rgb(131, 9, 246);
+    background-color:  rgb(240, 233, 246);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 29px;
+    font-size: 1.3rem;
+    padding: 6px;
+    transition: outline 0.2s ease;
+    border: none;
+
+}
+
+input:focus {
+    outline: 2px solid rgb(128, 0, 255);
+    outline-offset: 2px;
+}
+
+
+.box .gen{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(109, 104, 246);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.gen.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  background-color:  rgb(240, 233, 246);
+  border: none;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+
+.gen-text {
+  font-size: 1.1rem;
+font-weight: bolder;
+color: black;
+}
+
+
+
+
+.newurl{
+    width: 100%;
+    display: flex;
+}
+
+.url{
+    width: 80%;
+    background-color: white;
+    text-align: left;
+    padding: 6px;
+    font-size: 1.3rem;
+    padding: 6px;
+    border: 1.5px solid rgb(15, 77, 236);
+    margin-right: 9px;
+
+}
+
+.newurl .copy{
+    width: 15%;
+    background-color:  rgb(109, 104, 246);
+    padding: 4px;
+    font-size: 1.3rem;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
